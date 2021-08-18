@@ -1,0 +1,25 @@
+{
+  "name": "tests-site-buggycars",
+  "version": "1.0.0",
+  "description": "Automation suite to test the site buggy cars rating",
+  "main": "index.js",
+  "scripts": {
+    "tests:chrome": "testcafe chrome  features/tests/*.js  -r html:reports/test-report.html,spec -s takeOnFails=true  pathPattern= ${DATE}_${TIME}/test-${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.png --skip-js-errors",
+    "tests:edge": "testcafe edge  features/tests/*.js   --reporter html:reports/test-report.html,spec -s takeOnfails=true pathPattern=${DATE}_${TIME}/test-${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.png--skip-js-errors",
+    "tests:all": "testcafe edge,firefox,chrome  features/tests/*.js  -d --reporter html:reports/test-report.html,spec -s takeOnfails=true pathPattern=${DATE}_${TIME}/test-${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.png--skip-js-errors",
+    "tests:mobile": "testcafe chrome:emulation:device=iphonex  features/tests/*.js   --r html:reports/test-report.html,spec -s takeOnfails=true --skip-js-errors",
+    "test:reports": "testcafe edge -c 2 features/tests/*.js  -r html:reports/test-report.html,cucumber-json --reporter-json-folder=reports/htmlReports/jsonReports takeOnFails=true  pathPattern=${DATE}_${TIME}/test-${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.png",
+    "createReport": "node report-generator.js"
+  },
+  "keywords": [],
+  "author": "Esteban Balvin",
+  "license": "ISC",
+  "dependencies": {
+    "multiple-cucumber-html-reporter": "^1.18.0",
+    "random-name": "^0.1.2",
+    "random-words": "^1.1.1",
+    "testcafe": "^1.15.2",
+    "testcafe-reporter-cucumber-json": "^6.3.0",
+    "testcafe-reporter-html": "^1.4.6"
+  }
+}

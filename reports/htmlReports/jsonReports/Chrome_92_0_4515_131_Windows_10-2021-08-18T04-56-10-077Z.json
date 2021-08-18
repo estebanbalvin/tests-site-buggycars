@@ -1,0 +1,831 @@
+[
+  {
+    "description": "LOGIN TESTS",
+    "elements": [
+      {
+        "id": "ScenarioSmoke Test- Home page is loaded successfully",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Smoke Test- Home page is loaded successfully",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\Documents\\14.Repos\\TestCafe\\tests-site-buggycars\\features\\tests\\LoginTests.js:1:0"
+            },
+            "name": "Smoke Test- Home page is loaded successfully",
+            "result": {
+              "duration": 4994,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Smoke Test- Home page is loaded successfully</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioWHEN  valid credentials are entered, THEN  user is logged in successfully",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "WHEN  valid credentials are entered, THEN  user is logged in successfully",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\Documents\\14.Repos\\TestCafe\\tests-site-buggycars\\features\\tests\\LoginTests.js:1:0"
+            },
+            "name": "WHEN  valid credentials are entered, THEN  user is logged in successfully",
+            "result": {
+              "duration": 4348,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">WHEN  valid credentials are entered, THEN  user is logged in successfully</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioWHEN wrong credentials are entered,THEN an error message is displayed",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "WHEN wrong credentials are entered,THEN an error message is displayed",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\Documents\\14.Repos\\TestCafe\\tests-site-buggycars\\features\\tests\\LoginTests.js:1:0"
+            },
+            "name": "WHEN wrong credentials are entered,THEN an error message is displayed",
+            "result": {
+              "duration": 4997,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">WHEN wrong credentials are entered,THEN an error message is displayed</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "LOGIN TESTS",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "92.0.4515.131"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "10"
+      },
+      "reportTime": "2021-08-18T04:56:10.079Z",
+      "startTime": "2021-08-18T04:54:24.923Z"
+    },
+    "name": "LOGIN TESTS",
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@wrong"
+      },
+      {
+        "line": 0,
+        "name": "@credentials"
+      },
+      {
+        "line": 0,
+        "name": "@are"
+      },
+      {
+        "line": 0,
+        "name": "@entered"
+      },
+      {
+        "line": 0,
+        "name": "@error"
+      },
+      {
+        "line": 0,
+        "name": "@message"
+      },
+      {
+        "line": 0,
+        "name": "@displayed"
+      },
+      {
+        "line": 0,
+        "name": "@valid"
+      },
+      {
+        "line": 0,
+        "name": "@user"
+      },
+      {
+        "line": 0,
+        "name": "@logged"
+      },
+      {
+        "line": 0,
+        "name": "@successfully"
+      },
+      {
+        "line": 0,
+        "name": "@smoke"
+      },
+      {
+        "line": 0,
+        "name": "@test-"
+      },
+      {
+        "line": 0,
+        "name": "@home"
+      },
+      {
+        "line": 0,
+        "name": "@page"
+      },
+      {
+        "line": 0,
+        "name": "@loaded"
+      },
+      {
+        "line": 0,
+        "name": "@login"
+      },
+      {
+        "line": 0,
+        "name": "@tests"
+      }
+    ],
+    "uri": "D:\\Documents\\14.Repos\\TestCafe\\tests-site-buggycars\\features\\tests\\LoginTests.js:1"
+  },
+  {
+    "description": "USER PROFILE TESTS",
+    "elements": [
+      {
+        "id": "ScenarioSmoke test- Profile page is loaded successfully",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Smoke test- Profile page is loaded successfully",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\Documents\\14.Repos\\TestCafe\\tests-site-buggycars\\features\\tests\\ProfileTests.js:1:0"
+            },
+            "name": "Smoke test- Profile page is loaded successfully",
+            "result": {
+              "duration": 6939,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Smoke test- Profile page is loaded successfully</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioWHEN valid information is set in the form, THEN the users profile is updated sucessfully",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "WHEN valid information is set in the form, THEN the users profile is updated sucessfully",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\Documents\\14.Repos\\TestCafe\\tests-site-buggycars\\features\\tests\\ProfileTests.js:1:0"
+            },
+            "name": "WHEN valid information is set in the form, THEN the users profile is updated sucessfully",
+            "result": {
+              "duration": 8854,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">WHEN valid information is set in the form, THEN the users profile is updated sucessfully</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioWHEN I set null passwords  I click save,THEN an error validation should be displayed ",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "WHEN I set null passwords  I click save,THEN an error validation should be displayed",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "failed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\Documents\\14.Repos\\TestCafe\\tests-site-buggycars\\features\\tests\\ProfileTests.js:1:0"
+            },
+            "name": "WHEN I set null passwords  I click save,THEN an error validation should be displayed ",
+            "result": {
+              "duration": 10874,
+              "error_message": "1) AssertionError: Assertions fails: the alert message was not displayed: expected false to be truthy\n\n   Browser: Chrome 92.0.4515.131 / Windows 10\n\n      33 | \n      34 | test('WHEN I set null passwords  I click save,THEN an error validation should be displayed ', async t => {\n      35 | \n      36 |     ProfilePage.setBasicInfo(\" \",\" \");\n      37 |     ProfilePage.saveInfo();\n   --------------------------------------------\n    &rarr; 38 |     await t.expect(ProfilePage.messageAlert.visible).ok(\"Assertions fails: the alert message was not displayed\");\n   --------------------------------------------\n      39 | });\n      40 | \n      41 | test('WHEN the password set does not meet the password rules, THEN an error should be displayed ', async t => {\n      42 | \n      43 |     ProfilePage.changePassword(config.user.defaultPassword,\"Monday1\",\"Friday\");\n\n      at <anonymous> (D:\\Documents\\14.Repos\\TestCafe\\tests-site-buggycars\\features\\tests\\ProfileTests.js:38:54)\n      at asyncGeneratorStep (D:\\Documents\\14.Repos\\TestCafe\\tests-site-buggycars\\features\\tests\\ProfileTests.js:4:259)\n      at _next (D:\\Documents\\14.Repos\\TestCafe\\tests-site-buggycars\\features\\tests\\ProfileTests.js:4:597)\n      at <anonymous> (D:\\Documents\\14.Repos\\TestCafe\\tests-site-buggycars\\features\\tests\\ProfileTests.js:4:762)\n      at <anonymous> (D:\\Documents\\14.Repos\\TestCafe\\tests-site-buggycars\\features\\tests\\ProfileTests.js:4:503)\n      at <anonymous> (D:\\Documents\\14.Repos\\TestCafe\\tests-site-buggycars\\features\\tests\\ProfileTests.js:34:5)",
+              "status": "failed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">WHEN I set null passwords  I click save,THEN an error validation should be displayed </a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioWHEN the password set does not meet the password rules, THEN an error should be displayed ",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "WHEN the password set does not meet the password rules, THEN an error should be displayed",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\Documents\\14.Repos\\TestCafe\\tests-site-buggycars\\features\\tests\\ProfileTests.js:1:0"
+            },
+            "name": "WHEN the password set does not meet the password rules, THEN an error should be displayed ",
+            "result": {
+              "duration": 7581,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">WHEN the password set does not meet the password rules, THEN an error should be displayed </a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "USER PROFILE TESTS",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "92.0.4515.131"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "10"
+      },
+      "reportTime": "2021-08-18T04:56:10.079Z",
+      "startTime": "2021-08-18T04:54:24.923Z"
+    },
+    "name": "USER PROFILE TESTS",
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@password"
+      },
+      {
+        "line": 0,
+        "name": "@set"
+      },
+      {
+        "line": 0,
+        "name": "@does"
+      },
+      {
+        "line": 0,
+        "name": "@meet"
+      },
+      {
+        "line": 0,
+        "name": "@rules"
+      },
+      {
+        "line": 0,
+        "name": "@error"
+      },
+      {
+        "line": 0,
+        "name": "@displayed"
+      },
+      {
+        "line": 0,
+        "name": "@null"
+      },
+      {
+        "line": 0,
+        "name": "@passwords"
+      },
+      {
+        "line": 0,
+        "name": "@click"
+      },
+      {
+        "line": 0,
+        "name": "@save"
+      },
+      {
+        "line": 0,
+        "name": "@validation"
+      },
+      {
+        "line": 0,
+        "name": "@valid"
+      },
+      {
+        "line": 0,
+        "name": "@information"
+      },
+      {
+        "line": 0,
+        "name": "@form"
+      },
+      {
+        "line": 0,
+        "name": "@users"
+      },
+      {
+        "line": 0,
+        "name": "@profile"
+      },
+      {
+        "line": 0,
+        "name": "@updated"
+      },
+      {
+        "line": 0,
+        "name": "@sucessfully"
+      },
+      {
+        "line": 0,
+        "name": "@smoke"
+      },
+      {
+        "line": 0,
+        "name": "@test-"
+      },
+      {
+        "line": 0,
+        "name": "@page"
+      },
+      {
+        "line": 0,
+        "name": "@loaded"
+      },
+      {
+        "line": 0,
+        "name": "@successfully"
+      },
+      {
+        "line": 0,
+        "name": "@user"
+      },
+      {
+        "line": 0,
+        "name": "@tests"
+      }
+    ],
+    "uri": "D:\\Documents\\14.Repos\\TestCafe\\tests-site-buggycars\\features\\tests\\ProfileTests.js:1"
+  },
+  {
+    "description": "RATING TESTS",
+    "elements": [
+      {
+        "id": "ScenarioSmoke test- Profile page is loaded successfully",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Smoke test- Profile page is loaded successfully",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\Documents\\14.Repos\\TestCafe\\tests-site-buggycars\\features\\tests\\RatingTests.js:1:0"
+            },
+            "name": "Smoke test- Profile page is loaded successfully",
+            "result": {
+              "duration": 12529,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Smoke test- Profile page is loaded successfully</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioWHEN an user types a comment and vote, THEN a msg is displayed and the comment posted",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "WHEN an user types a comment and vote, THEN a msg is displayed and the comment posted",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\Documents\\14.Repos\\TestCafe\\tests-site-buggycars\\features\\tests\\RatingTests.js:1:0"
+            },
+            "name": "WHEN an user types a comment and vote, THEN a msg is displayed and the comment posted",
+            "result": {
+              "duration": 19861,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">WHEN an user types a comment and vote, THEN a msg is displayed and the comment posted</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "RATING TESTS",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "92.0.4515.131"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "10"
+      },
+      "reportTime": "2021-08-18T04:56:10.079Z",
+      "startTime": "2021-08-18T04:54:24.923Z"
+    },
+    "name": "RATING TESTS",
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@user"
+      },
+      {
+        "line": 0,
+        "name": "@types"
+      },
+      {
+        "line": 0,
+        "name": "@comment"
+      },
+      {
+        "line": 0,
+        "name": "@vote"
+      },
+      {
+        "line": 0,
+        "name": "@msg"
+      },
+      {
+        "line": 0,
+        "name": "@displayed"
+      },
+      {
+        "line": 0,
+        "name": "@posted"
+      },
+      {
+        "line": 0,
+        "name": "@smoke"
+      },
+      {
+        "line": 0,
+        "name": "@test-"
+      },
+      {
+        "line": 0,
+        "name": "@profile"
+      },
+      {
+        "line": 0,
+        "name": "@page"
+      },
+      {
+        "line": 0,
+        "name": "@loaded"
+      },
+      {
+        "line": 0,
+        "name": "@successfully"
+      },
+      {
+        "line": 0,
+        "name": "@rating"
+      },
+      {
+        "line": 0,
+        "name": "@tests"
+      }
+    ],
+    "uri": "D:\\Documents\\14.Repos\\TestCafe\\tests-site-buggycars\\features\\tests\\RatingTests.js:1"
+  },
+  {
+    "description": "USER REGISTRATION TESTS ",
+    "elements": [
+      {
+        "id": "ScenarioSmoke Test- Registration page is loaded successfully",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "Smoke Test- Registration page is loaded successfully",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\Documents\\14.Repos\\TestCafe\\tests-site-buggycars\\features\\tests\\UserRegistrationTests.js:1:0"
+            },
+            "name": "Smoke Test- Registration page is loaded successfully",
+            "result": {
+              "duration": 2724,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">Smoke Test- Registration page is loaded successfully</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioWHEN the form is filled out correctly,THEN the user is registered successfully",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "WHEN the form is filled out correctly,THEN the user is registered successfully",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\Documents\\14.Repos\\TestCafe\\tests-site-buggycars\\features\\tests\\UserRegistrationTests.js:1:0"
+            },
+            "name": "WHEN the form is filled out correctly,THEN the user is registered successfully",
+            "result": {
+              "duration": 7238,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">WHEN the form is filled out correctly,THEN the user is registered successfully</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioWHEN the user tries to create an existing login, THEN an error should be displayed",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "WHEN the user tries to create an existing login, THEN an error should be displayed",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\Documents\\14.Repos\\TestCafe\\tests-site-buggycars\\features\\tests\\UserRegistrationTests.js:1:0"
+            },
+            "name": "WHEN the user tries to create an existing login, THEN an error should be displayed",
+            "result": {
+              "duration": 6986,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">WHEN the user tries to create an existing login, THEN an error should be displayed</a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      },
+      {
+        "id": "ScenarioWHEN the passwords do not match, THEN a validation error is displayed ",
+        "keyword": "Scenario",
+        "line": 0,
+        "name": "WHEN the passwords do not match, THEN a validation error is displayed",
+        "skipped": false,
+        "sourceLine": "undefined",
+        "status": "passed",
+        "steps": [
+          {
+            "hidden": false,
+            "keyword": ">",
+            "match": {
+              "location": "D:\\Documents\\14.Repos\\TestCafe\\tests-site-buggycars\\features\\tests\\UserRegistrationTests.js:1:0"
+            },
+            "name": "WHEN the passwords do not match, THEN a validation error is displayed ",
+            "result": {
+              "duration": 6539,
+              "status": "passed"
+            },
+            "tags": [],
+            "text": [
+              "<a href=\"#\">WHEN the passwords do not match, THEN a validation error is displayed </a>"
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "uri": ""
+      }
+    ],
+    "id": "USER REGISTRATION TESTS ",
+    "keyword": "Feature",
+    "line": 0,
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "92.0.4515.131"
+      },
+      "device": "Windows",
+      "platform": {
+        "name": "windows",
+        "version": "10"
+      },
+      "reportTime": "2021-08-18T04:56:10.079Z",
+      "startTime": "2021-08-18T04:54:24.923Z"
+    },
+    "name": "USER REGISTRATION TESTS",
+    "runInfo": {
+      "endTime": "2021-08-18T04:56:10.077Z",
+      "passed": 12,
+      "startTime": "2021-08-18T04:54:24.923Z",
+      "testCount": 13,
+      "userAgents": [
+        "Chrome 92.0.4515.131 / Windows 10"
+      ],
+      "warnings": []
+    },
+    "skipped": false,
+    "tags": [
+      {
+        "line": 0,
+        "name": "@passwords"
+      },
+      {
+        "line": 0,
+        "name": "@match"
+      },
+      {
+        "line": 0,
+        "name": "@validation"
+      },
+      {
+        "line": 0,
+        "name": "@error"
+      },
+      {
+        "line": 0,
+        "name": "@displayed"
+      },
+      {
+        "line": 0,
+        "name": "@user"
+      },
+      {
+        "line": 0,
+        "name": "@tries"
+      },
+      {
+        "line": 0,
+        "name": "@create"
+      },
+      {
+        "line": 0,
+        "name": "@existing"
+      },
+      {
+        "line": 0,
+        "name": "@login"
+      },
+      {
+        "line": 0,
+        "name": "@form"
+      },
+      {
+        "line": 0,
+        "name": "@filled"
+      },
+      {
+        "line": 0,
+        "name": "@out"
+      },
+      {
+        "line": 0,
+        "name": "@correctly"
+      },
+      {
+        "line": 0,
+        "name": "@registered"
+      },
+      {
+        "line": 0,
+        "name": "@successfully"
+      },
+      {
+        "line": 0,
+        "name": "@smoke"
+      },
+      {
+        "line": 0,
+        "name": "@test-"
+      },
+      {
+        "line": 0,
+        "name": "@registration"
+      },
+      {
+        "line": 0,
+        "name": "@page"
+      },
+      {
+        "line": 0,
+        "name": "@loaded"
+      },
+      {
+        "line": 0,
+        "name": "@tests"
+      }
+    ],
+    "uri": "D:\\Documents\\14.Repos\\TestCafe\\tests-site-buggycars\\features\\tests\\UserRegistrationTests.js:1"
+  }
+]
