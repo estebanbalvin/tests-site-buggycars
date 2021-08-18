@@ -31,7 +31,7 @@ test('WHEN valid information is set in the form, THEN the users profile is updat
     await t.expect(ProfilePage.messageSucess.innerText).contains("The profile has been saved successful");
 });
 
-test('WHEN I set null passwords  I click save,THEN an error validation should be displayed ', async t => {
+test('WHEN I set null passwords and I click save,THEN an error validation should be displayed ', async t => {
 
     ProfilePage.setBasicInfo(" "," ");
     ProfilePage.saveInfo();
